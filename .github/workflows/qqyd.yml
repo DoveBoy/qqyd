@@ -32,7 +32,7 @@ jobs:
           npm install got download tough-cookie
       - name: ' 运行 【企鹅阅读】'
         run: |
-          node qqread.js
+          node ./Script/qqread.js
         env:
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
