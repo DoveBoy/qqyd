@@ -19,6 +19,9 @@ jobs:
         QQ_READ_HEADER_VAL: ${{ secrets.QQ_READ_HEADER_VAL }}
         QQ_READ_TIME_URL_VAL: ${{ secrets.QQ_READ_TIME_URL_VAL }}
         QQ_READ_TIME_HEADER_VAL: ${{ secrets.QQ_READ_TIME_HEADER_VAL }}
+        QQREAD_BODY: ${{ secrets.QQREAD_BODY }}
+        QQREAD_TIMEURL: ${{ secrets.QQREAD_TIMEURL }}
+        QQREAD_TIMEHD: ${{ secrets.QQREAD_TIMEHD }}
         
     steps:
       - uses: actions/checkout@v1
